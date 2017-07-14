@@ -10,4 +10,5 @@ https://nbviewer.jupyter.org/github/HanchenXiong/deepembedding/blob/master/deepe
 
 ### learn a direct deep embedding using a DNN with t-SNE as loss function (batch version of computing P)
 https://nbviewer.jupyter.org/github/HanchenXiong/deepembedding/blob/master/deepebedding-with-tSNE-batchloss.ipynb
-this does not work, although it's promising in terms of scaling up. 
+
+Instead of computing global P, a local P is computed for each mini batch. This does work, it's promising in terms of scaling up.
